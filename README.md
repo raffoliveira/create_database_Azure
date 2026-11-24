@@ -105,6 +105,8 @@ Acesse o [Portal Azure](https://portal.azure.com/), procure por **Azure
 SQL** e selecione **SQL managed instances / Instâncias gerenciadas
 SQL**. Clique em **Criar**.
 
+![Configuração básica da instância Azure SQL Managed Instance](images/01-azure-portal.png)
+
 ### 5.1. Básico
 
 Preencha os dados essenciais:
@@ -123,6 +125,11 @@ Preencha os dados essenciais:
 **Dica:** utilize nomes padronizados, por exemplo, `rg-lab-azure-sqlmi`
 para o grupo de recursos e `sqlmi-lab-estudos` para a instância, se
 disponíveis e aceitos pelas regras de nomenclatura.
+
+![Configuração de dados básicos](images/02-config-basics-01.png)
+![Configuração de dados básicos](images/02-config-basics-02.png)
+![Configuração de dados básicos](images/02-config-basics-03.png)
+
 
 ### 5.2. Computação e armazenamento
 
