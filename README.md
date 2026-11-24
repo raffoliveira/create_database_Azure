@@ -150,8 +150,7 @@ selecione os parâmetros de acordo com o objetivo do laboratório:
 > disponível e atenda aos requisitos. Confira o preço estimado antes de
 > implantar: o serviço pode gerar custos significativos.
 
-![Configuração de dados básicos](images/02-config-basics-rede-01.png)
-![Configuração de dados básicos](images/02-config-basics-rede-02.png)
+![Configuração de dados básicos](images/02-config-basics-storage.png)
 
 ### 5.3. Rede
 
@@ -171,6 +170,9 @@ compatíveis.
 
 A configuração de rede é uma das partes mais importantes do exercício.
 Não exponha o banco indiscriminadamente à internet.
+
+![Configuração de dados básicos](images/02-config-basics-rede-01.png)
+![Configuração de dados básicos](images/02-config-basics-rede-02.png)
 
 ### 5.4. Segurança e configurações adicionais
 
