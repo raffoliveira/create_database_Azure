@@ -150,6 +150,9 @@ selecione os parâmetros de acordo com o objetivo do laboratório:
 > disponível e atenda aos requisitos. Confira o preço estimado antes de
 > implantar: o serviço pode gerar custos significativos.
 
+![Configuração de dados básicos](images/02-config-basics-rede-01.png)
+![Configuração de dados básicos](images/02-config-basics-rede-02.png)
+
 ### 5.3. Rede
 
 A Managed Instance é implantada em uma rede virtual e subnet
