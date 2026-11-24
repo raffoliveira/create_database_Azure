@@ -126,9 +126,9 @@ Preencha os dados essenciais:
 para o grupo de recursos e `sqlmi-lab-estudos` para a instância, se
 disponíveis e aceitos pelas regras de nomenclatura.
 
-![Configuração de dados básicos](images/02-config-basics-01.png)
-![Configuração de dados básicos](images/02-config-basics-02.png)
-![Configuração de dados básicos](images/02-config-basics-03.png)
+![Configuração de dados básicos](images/config-basics-01.png)
+![Configuração de dados básicos](images/config-basics-02.png)
+![Configuração de dados básicos](images/config-basics-03.png)
 
 
 ### 5.2. Computação e armazenamento
@@ -150,7 +150,9 @@ selecione os parâmetros de acordo com o objetivo do laboratório:
 > disponível e atenda aos requisitos. Confira o preço estimado antes de
 > implantar: o serviço pode gerar custos significativos.
 
-![Configuração de dados básicos](images/02-config-basics-storage.png)
+> OBS.: Optei pelas configurações padrões.
+
+![Configuração de dados básicos](images/config-basics-storage.png)
 
 ### 5.3. Rede
 
@@ -171,8 +173,8 @@ compatíveis.
 A configuração de rede é uma das partes mais importantes do exercício.
 Não exponha o banco indiscriminadamente à internet.
 
-![Configuração de dados básicos](images/02-config-basics-rede-01.png)
-![Configuração de dados básicos](images/02-config-basics-rede-02.png)
+![Configuração de dados básicos](images/config-basics-rede-01.png)
+![Configuração de dados básicos](images/config-basics-rede-02.png)
 
 ### 5.4. Segurança e configurações adicionais
 
@@ -188,6 +190,9 @@ Revise as opções disponíveis, que podem incluir:
 Para um laboratório simples, mantenha opções adicionais nos valores
 padrão quando não houver uma necessidade específica, mas revise o que
 será criado.
+
+![Configuração de dados básicos](images/config-basics-security-01.png)
+![Configuração de dados básicos](images/config-basics-security-02.png)
 
 ### 5.5. Revisar e implantar
 
@@ -320,7 +325,7 @@ Sugestões de imagens:
   `01-azure-portal.png`               Portal Azure e busca pelo serviço
                                       Azure SQL.
 
-  `02-config-basics.png`              Aba Básico com os parâmetros
+  `config-basics.png`              Aba Básico com os parâmetros
                                       principais (oculte informações
                                       sensíveis).
 
@@ -349,7 +354,7 @@ Sugestões de imagens:
 Exemplo de inserção de imagem no Markdown:
 
 ``` md
-![Configuração básica da instância Azure SQL Managed Instance](images/02-config-basics.png)
+![Configuração básica da instância Azure SQL Managed Instance](images/config-basics.png)
 ```
 
 As imagens devem complementar os passos, não substituir as instruções
