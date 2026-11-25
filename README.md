@@ -102,7 +102,7 @@ Acesse o [Portal Azure](https://portal.azure.com/), procure por **Azure
 SQL** e selecione **SQL managed instances / Instâncias gerenciadas
 SQL**. Clique em **Criar**.
 
-![Configuração básica da instância Azure SQL Managed Instance](images/01-azure-portal.png)
+![Configuração básica da instância Azure SQL Managed Instance](images/azure-portal.png)
 
 ### 5.1. Básico
 
