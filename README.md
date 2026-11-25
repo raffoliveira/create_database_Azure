@@ -31,10 +31,7 @@ de dados, SQL, conceitos de cloud e navegação em portais web.
 -   [9. Segurança: boas práticas](#9-segurança-boas-práticas)
 -   [10. Custos e limpeza dos
     recursos](#10-custos-e-limpeza-dos-recursos)
--   [11. Anotações e aprendizados](#11-anotações-e-aprendizados)
--   [12. Evidências e imagens
-    sugeridas](#12-evidências-e-imagens-sugeridas)
--   [13. Referências](#13-referências)
+-   [11. Referências](#11-referências)
 
 ------------------------------------------------------------------------
 
@@ -202,6 +199,8 @@ será criado.
     preço estimado.
 4.  Clique em **Create / Criar** para iniciar a implantação.
 
+![Configuração de dados básicos](images/config-basics-review.png)
+
 ## 6. Acompanhar a implantação
 
 Acompanhe o progresso pelas notificações do Portal Azure ou pela página
@@ -214,6 +213,10 @@ recurso está pronto antes de prosseguir.
 
 Após a conclusão, abra a instância e revise a página **Overview / Visão
 geral**.
+
+![Configuração de dados básicos](images/config-basics-deploy-01.png)
+![Configuração de dados básicos](images/config-basics-deploy-02.png)
+![Configuração de dados básicos](images/config-basics-deploy-03.png)
 
 ## 7. Criar um banco de dados
 
@@ -229,6 +232,8 @@ Com a instância provisionada:
 6.  Confirme a criação.
 
 O banco será criado dentro da instância gerenciada.
+
+![Configuração de dados básicos](images/config-basics-database.png)
 
 ## 8. Obter informações de conexão
 
@@ -254,6 +259,10 @@ confirmar os requisitos de rede e segurança.
 
 **Nunca publique credenciais, strings de conexão com senha, tokens ou
 dados sensíveis no repositório.**
+
+![Configuração de dados básicos](images/config-basics-connection.png)
+
+> Para mais informações de como conectar na instância, visite o [Learn Microsoft](https://learn.microsoft.com/pt-br/azure/azure-sql/managed-instance/connect-application-instance?view=azuresql)
 
 ## 9. Segurança: boas práticas
 
@@ -291,76 +300,7 @@ Azure](https://azure.microsoft.com/pt-br/pricing/calculator/) -
 [Gerenciar custos com o Azure Cost
 Management](https://learn.microsoft.com/pt-br/azure/cost-management-billing/costs/overview-cost-management)
 
-## 11. Anotações e aprendizados
-
-Use esta seção para registrar suas próprias observações após executar o
-tutorial.
-
--   **Região utilizada:**
--   **Grupo de recursos:**
--   **Nome da instância:**
--   **Configuração de computação:**
--   **Configuração de armazenamento:**
--   **Configuração de rede:**
--   **Tempo aproximado de implantação:**
--   **Banco criado:**
--   **Como validei a conexão:**
--   **Dificuldades encontradas:**
--   **O que aprendi:**
--   **O que faria diferente em um cenário real:**
-
-> Não preencha este registro com senhas, chaves, tokens, strings de
-> conexão ou dados sensíveis.
-
-## 12. Evidências e imagens sugeridas
-
-Crie uma pasta `images/` na raiz do repositório e adicione capturas de
-tela próprias, removendo ou ocultando informações sensíveis.
-
-Sugestões de imagens:
-
-  -----------------------------------------------------------------------
-  Arquivo sugerido                    Captura
-  ----------------------------------- -----------------------------------
-  `01-azure-portal.png`               Portal Azure e busca pelo serviço
-                                      Azure SQL.
-
-  `config-basics.png`              Aba Básico com os parâmetros
-                                      principais (oculte informações
-                                      sensíveis).
-
-  `03-compute-storage.png`            Configuração de tier, vCores e
-                                      armazenamento.
-
-  `04-networking.png`                 Configuração da VNet/subnet e
-                                      opções de endpoint.
-
-  `05-review-create.png`              Resumo da configuração antes da
-                                      implantação.
-
-  `06-deployment-progress.png`        Progresso da implantação.
-
-  `07-instance-overview.png`          Visão geral da instância
-                                      provisionada.
-
-  `08-database-created.png`           Banco de dados criado na instância.
-
-  `09-connection-info.png`            Informações de conexão --- **oculte
-                                      hostname/identificadores se
-                                      desejar, e nunca mostre
-                                      credenciais**.
-  -----------------------------------------------------------------------
-
-Exemplo de inserção de imagem no Markdown:
-
-``` md
-![Configuração básica da instância Azure SQL Managed Instance](images/config-basics.png)
-```
-
-As imagens devem complementar os passos, não substituir as instruções
-escritas.
-
-## 13. Referências
+## 11. Referências
 
 -   [Microsoft Learn --- Início Rápido: criar Instância Gerenciada de
     SQL do
